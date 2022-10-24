@@ -1,0 +1,67 @@
+Heraça tem a principal finalidade de criar sub-tipos e o reuso é uma consequencia da herança
+
+Usada para criar sub-tipos a parti de um tipo existente e cada subtipo pode ter seus proprio membros (Atributos e methodos das subclasse)
+
+Pode ter
+
+Heranças
+Assosiação
+Interface
+
+Ex de codigo chamando Heranças
+
+JAVA
+
+class A extends B{
+    ....
+}
+
+C#
+
+class A : B {
+    ...
+}
+
+
+PYTHON
+
+class A(B):
+
+
+Com herança podemos criar class que tem dados de outras class, assim
+criando outras classes para uso.
+
+
+Tipos de herança
+
+Simples 
+
+é Uma clase filha tem apenas uma clase mãe
+
+        funcionario
+
+Gerente     vendedor    Faxineiro
+
+Multiplas
+
+
+    A classe filha tem uma ou mais classes mães
+
+    Estudante       funcionario
+
+            estagiario
+
+Java não tem Heranças multiplas
+
+Java não ter Heranças multiplas é para não ter problema com nomes ou chamado (problema de diamante)
+
+
+Heranças Upcast e Downcast
+
+Java
+Criando um Upcast
+
+A a = new B();
+
+Criando um Downcast
+B a = (B) new A();

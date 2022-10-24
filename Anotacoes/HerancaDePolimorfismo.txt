@@ -1,0 +1,34 @@
+Polimorfismo
+
+"A mesma função, se comportando diferente"
+
+ Exemplo com pagamento
+
+ O pagamento é um modelo porem pode ser realizado de modos diferente, o pagamento pode processar um pagamento trasves do, boleto, credito, debito pix.
+
+                                                        pagamento
+                                                        processar()
+                        
+                
+            BOLETO                  CREDITO                         DEBITO                      PIX
+            processar()             processar()                     processar()                 processar()
+
+
+Polimorfismo
+    codigo 
+        
+Sobrescrita
+
+"A mesma ação, podendo se comporta diferente
+
+                                                        pagamento
+                                                        processar()
+                                                        exibirSaldo()
+                        
+                
+            Corrent                 Poupanca                        Especial                    Universitaria
+            processar()             processar()                     processar()                 processar()
+                                    exibirSaldo()                   exibirSaldo()
+
+    Sobrescrita é usar o metodo de uma classe na sua com o mesmo nome porem trazendo resultados diferentes
+

@@ -1,0 +1,63 @@
+Possibilita um relacionamente entre classe/objetos, no qual
+estes possam pedir ajuda a outras classes/objetos e representar de forma
+completa o conceito ao qual se destinam, neste tipo de relacionamente, as classe e objeto interagem entre si.
+
+Tipos:
+    Estrutural
+        Composição
+        Agregação
+    Comportamental
+        Dependencia
+
+Tipos:
+    Estrutural
+        Composição: Com parte do todo
+        Ex: Pessoa e Endereço
+
+Pessoa
+Endereço pessoa  -> Endereço
+
+No caso o endereço só existe SE existir uma pessoa
+
+EX:
+
+class Pessoa{
+    Endereco endereco;
+}
+--------------
+
+Tipos:
+    Estrutural
+        Agregação: Sem parte do todo
+        Ex: Disciplina e aluno
+
+Disciplina
+Aluno aluno -> aluno
+
+No caso o aluno pode EXISTIR SEM a Disciplina e vice e versa;
+
+Class Disciplina{
+    Aluno aluno;
+}
+
+A diferença é a questão conceitual
+
+A Composição tem uma Dependencia, já a Agregação pode existir de forma idependente
+
+
+Tipos:
+    Estrutural
+        Dependencia: Depende
+        Para algo existir depende de outro
+
+Compra()
+Cliente cliente           -> Cupom
+Finaliza(Cupom cupom,...)
+Finaliza
+
+
+Class Compra{
+    Finaliza(Cupom cupom){
+        
+    }
+}

@@ -1,0 +1,40 @@
+Objetivos 
+
+1- Apresentar os conceitos que criam as estruturas básicas da OO:
+ºClasse
+ºAtributo
+ºMétodo
+ºObjeto
+ºMensagem
+
+Classe 
+
+Todo objeto começa com uma classe, a classe é a unidade minima e basica de codificação de implementação da orientação ao obj
+
+Todo objeto parti de uma classe que alimenta os objetos gerados a parti dela
+A classe vai servi de molde para objetos e essa classe criar outras classes que geram objetos 
+
+DICAS NAS CLASSES
+
+-Substantivos
+-Nome significativos
+-Contexto deve ser considerando
+
+JAVA
+
+class carro {
+
+}
+
+C#
+
+class carro {
+    
+}
+
+PYTHON
+
+class carro:
+    pass
+
+    

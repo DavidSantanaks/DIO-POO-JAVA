@@ -1,0 +1,42 @@
+Atributo
+
+É o elemento dntro de uma classe responsavel por definir sua estruturas de dados. 
+    O conjunto destes será responsavel por representar suas caracteristicas e fará
+    parte dos objetos criados a partir da classe
+
+
+    Atributo X variavel
+
+    Na orientação objeto usamos tanto variavel como atributos
+    Dentro das classe normalmente usamos atributos e variavel dentro dos methodos
+
+    A: Oque é proprio e peculiar a alguem ou alguma coisa.
+    V: Sujeito a variações ou mudanças.
+
+    dicas para atributos
+
+    -Substantivos e adjetivos
+    -Nome significativos
+    -Contexto deve ser considerado
+    -Abstração
+    -Tipos adequados
+
+    JAVA
+
+class carro {
+    //Atributos
+    int portas;
+}
+
+C#
+
+class carro {
+    //Atributos
+    int portas;
+}
+
+PYTHON
+
+class carro:
+    //Atributos
+    portas = 0;

@@ -1,0 +1,107 @@
+Metodos 
+
+Um metodo serve para identificar quais serviços e ações que a classe oferece.
+
+A criação de todos os metodos tem que ter
+
+-Java e C#
+
+Visibilidade
+Retorno
+Nome
+Parâmetros
+
+-Python
+
+Def
+Nome
+Parâmetros
+
+Dicas para metodos
+
+Verbos
+Nome significativos
+Contexto deve ser considerado
+
+
+Codigo
+
+Java 
+class Carro{
+    void frear(){
+
+    }
+}
+
+C#
+
+class Carro{
+    void frear(){
+        
+    }
+}
+
+
+Python
+
+class carro:
+    def frear()
+
+Metodos especiais
+
+Contrutor 
+
+    É oque cria um objeto 
+
+    Java
+    class Carro{
+        Carro(){
+        
+    }
+}
+    C#
+class Carro{
+        Carro(){
+        
+    }
+}
+
+
+class Carro:
+    def __init__(self):
+
+Destrutor
+        é oque desativa o objeto para ele
+        não ficar consumindo memoria
+Java
+    class Carro{
+      void  finalize(){
+        
+    }
+}
+
+class Carro {
+    ~Carro(){
+
+    }
+}
+
+Sobrecarga
+
+Java
+
+m1(int i)
+m1(float f)
+m1(String s, long l)
+m1(long l, String s)
+
+C#
+
+m1(int i)
+m1(float f)
+m1(String s, long l)
+m1(long l, String s)
+
+Por que usar Sobrecarga
+
+Vai depender 

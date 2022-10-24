@@ -1,0 +1,34 @@
+Interface
+Define um contrato que deve ser seguido pela classe que a
+implementa. quando uma classe implementa uma interface, ela
+se compromete a realizar todos os comportamentos que a interface disponibiliza
+
+Se uma intarface tem 4 metodos
+a classe que vai utilizar essa intarface obrigatoriamente tem que
+usar esses 4 metodos para funcionar
+
+
+EX
+
+JAVA
+
+intarface A {
+
+}
+
+class B implements A{
+
+}
+-------------------------
+C#
+
+intarface A {
+
+}
+
+class B implements A{
+
+}
+
+
+

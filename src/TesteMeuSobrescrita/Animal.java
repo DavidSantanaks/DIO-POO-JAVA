@@ -1,0 +1,10 @@
+package TesteMeuSobrescrita;
+
+public class Animal {
+
+    public void fazerBarulho(){
+        System.out.println("barulho");
+    }
+
+}
+

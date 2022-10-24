@@ -1,0 +1,20 @@
+São uma organização fisica ou logica criada para separar
+classes com resposabilidades distintas. Com isso,
+espera-se que a aplicação fique mais organizada
+e seja possivel separar classes de finalidades e 
+representatividades diferentes.
+
+Usando pacotes em:
+
+
+Java
+
+package ...;
+
+Import ...;
+
+C#
+
+namespace {...}
+
+using ...;

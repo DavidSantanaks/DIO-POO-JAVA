@@ -1,0 +1,38 @@
+Objeto e Mensagem
+
+Objeto é uma instancia da classe que faz a classe funcionar
+
+instancia um objeto na aplicação 
+EX: 
+
+java 
+
+Carro carro = new Carro();
+
+C#
+
+Carro carro = new Carro();
+
+Python
+
+carro = Carro();
+
+Mensagem é o processo de ativação de um metodo de um objeto, isto ocorre quando uma requisição (chamada) a esse é realizada
+assim disparando a execução de seu comportamento descrito.
+
+chamando o metodo
+
+java 
+
+Carro carro = new Carro();
+carro.<metodo> //via objeto
+Carro.<metodo> //Via classe
+
+C#
+Carro carro = new Carro();
+carro.<metodo> //via objeto
+Carro.<metodo> //Via classe
+
+Python
+carro.<metodo> //via objeto
+Carro.<metodo> //Via classe
